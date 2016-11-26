@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TAKE ME HOME. Digital loneliness.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">    
+    <style>
+        body {
+            font-family: Inconsolata;
+            background-color: #000;
+            color: #000;
+            margin: 0px;
+            overflow: hidden;
+            font-size: .9em;
+        }
+        #info {
+            text-align: center;
+            padding: 10px;
+            z-index: 10;
+            
+            position: absolute;
+            
+            width: 100%;
+            
+            left:0; right:0;
+            top: 12%;
+            
+            color: white;
+            opacity: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #aaaaaa;
+        }
+        a:hover { text-decoration: underline; }
+
+        #loading {
+            top: 0; left: 0; bottom: 0; right: 0;
+            position: absolute;
+            width: 100%;
+
+            color: white;
+            visibility: visible;
+            transition: opacity 2s linear;
+        }
+        #loading.hidden {
+            opacity: 0;
+        }
+
+        #author {
+            position: absolute;
+            bottom: 2em; left: 2em;
+            color: #aaaaaa;
+        }
+        #controls {
+            position: absolute;
+            bottom: 2em;
+            right: 2em;
+        }
+        #controls #volume {
+            width: 30px;
+            height: 30px;
+
+            background-image: url('textures/icon_volume.png');
+            background-repeat: no-repeat;
+
+            cursor: pointer;
+        }
+        #controls #volume.muted {
+            background-image: url('textures/icon_volume_no.png');
+        }
+
+        h1 { font-size: 1em; margin: 0 0 0 0; font-weight: 400; }
+    </style>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/howler.min.js"></script>
+
+    <script src="js/ThreeCSG.js"></script>
+    <script src="js/Bird.js"></script>
+    <script src="js/Boid.js"></script>
+
+    <script src="js/perfPolyfill.js"></script>
+
+    <script src="js/EffectComposer.js"></script>
+    <script src="js/MaskPass.js"></script>
+    <script src="js/RenderPass.js"></script>
+    <script src="js/ShaderPass.js"></script>
+    <script src="js/CopyShader.js"></script>
+    <script src="js/FilmShader.js"></script>
+    <script src="js/FilmPass.js"></script>
+    <script src="js/FXAAShader.js"></script>
+
+    <script src="js/mirror.js"></script>
+    
+    <script src="js/HorizontalTiltShiftShader.js"></script>
+    <script src="js/VerticalTiltShiftShader.js"></script>
+</head>
+<body>
+    <div id='author'>
+        <h1><b>TAKE ME HOME</b></h1>
+        <a href='http://www.kapitan.fi'>Lauri-Matti Parppei</a> 2016<br>
+    </div>
+    <div id='info'>
+        This planet is randomly generated, just for you.<br>
+        Use mouse or touch screen to explore.
+    </div>
+    <div id='controls'>
+        <div id='volume'></div>
+    </div>
+    <script>var path = './';</script>
+    <!-- <script src='js/planeetta.min.js'></script> -->
+    <script src='js/takemehome.js'></script>
+</body>
+</html>
