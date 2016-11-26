@@ -1,5 +1,4 @@
 ## TAKE ME HOME - digital loneliness
-Lauri-Matti Parppei 2016
 
 Try the live version here: [www.kapitan.fi/takemehome](http://kapitan.fi/takemehome)
 
@@ -10,8 +9,9 @@ Hope this might inspire and help others to begin to create something strange and
 
 Uses Howler.js and Three.js libraries along with many other things found here and there. Special thanks to mrdoob, alteredq and Sylvain Hittelet for their great work.
 
-Lauri-Matti Parppei  
+Lauri-Matti Parppei 2016
 http://www.kapitan.fi/
+
 
 ## License
 
