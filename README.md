@@ -8,7 +8,7 @@ Hope this might inspire and help others to begin to create something strange and
 
 Uses Howler.js and Three.js libraries along with many other things found here and there. Special thanks to mrdoob, alteredq and Sylvain Hittelet for their great work.
 
-Lauri-Matti Parppei
+Lauri-Matti Parppei  
 http://www.kapitan.fi/
 
 ## License
