@@ -1,6 +1,8 @@
 ## TAKE ME HOME - digital loneliness
 Lauri-Matti Parppei 2016
 
+Try the live version here: [www.kapitan.fi/takemehome](https://kapitan.fi/takemehome)
+
 This is an open source version of my Take Me Home experience created using JavaScript, WebGL and [Three.js](http://threejs.org). Trapped on a strangely familiar planet. No way to escape. Enough said.
 
 My background is in graphic design and visual arts so my coding skills are limited and the code might be bit of a mess. I tried to comment the strangest parts of it. 
