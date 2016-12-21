@@ -5,7 +5,9 @@ Digital loneliness
 
 Lauri-Matti Parppei 2016
 
-This is a messy sor
+This is a mess.
+Tread lightly.
+You are in my thoughts.
 
 */
 
